@@ -1,3 +1,5 @@
+//Q3. Find out the simple as well as the compound interest of supplied value
+
 package com.compay;
 
 public class Sici {
