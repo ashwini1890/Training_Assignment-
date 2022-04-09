@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Webpage Including Form.css">
+    <title>Webpage Includeing All Froms</title>
+</head>
+<body>
+    <h1>Sample Page contains all types of froms</h1>
+    <form>
+    <div class="A">
+        <label id="username">Username:</label>
+        <input type="text" placeholder="username" id="name" required/>
+        <br><br>
+        <label id="password">Password:</label>
+        <input type="password" placeholder="password" id="password" required/>
+        <br><br>
+        <label id="email">Email:</label>
+        <input type="email" placeholder="email" id="email" required/>
+        
+        
+    </div>
+    <div class="B">
+        <label id="dob">DOB:</label>
+        <input type="date" id="dob" placeholder="01/02/2001" required>
+    </div>
+    <div class="C">
+        <p>Gender</p>
+        <input type="radio" id="gender1" name="gender" required>
+        <label for="gender1">Male</label><br>
+        <input type="radio" id="gender2" name="gender">
+        <label for="gender2">Female</label><br>  
+        <input type="radio" id="gender3" name="gender">
+        <label for="gender3">Others</label><br><br>
+    </div>
+    <div class="D" >
+        <label id="Address">address:</label><br>
+        <input type="text" placeholder="address" id="address"/>
+        <P>City:</P>
+        <select required>
+            <option value="0">select</option>
+            <option value="1">Kurnool</option>
+            <option value="2">Chittor</option>
+            <option value="3">Kadapa</option>
+            <option value="4">Anantapur</option>
+            <option value="5">Amaravathi</option>
+        </select>
+        <P>State:</P>
+        <select required>
+            <option value="0">select</option>
+            <option value="1">AP</option>
+            <option value="2">UP</option>
+            <option value="3">TS</option>
+            <option value="4">MP</option>
+            <option value="5">TN</option>
+        </select>
+        <P>Country:</P>
+        <select required>
+            <option value="0">select</option>
+            <option value="1">India</option>
+            <option value="2">Pakistan</option>
+            <option value="3">Chain</option>
+            <option value="4">America</option>
+            <option value="5">Japan</option>
+        </select>
+    </div>
+    <div class="E">
+        <p>Programming Languages:</p>
+        <input type="checkbox" id="Course1" >
+        <label for="Course1">Java</label><br>
+        <input type="checkbox" id="Course1">
+        <label for="gender1">Python</label><br>
+        <input type="checkbox" id="Course1">
+        <label for="gender1">C</label><br>
+        <input type="checkbox" id="Course1">
+        <label for="gender1">C++</label><br>
+        <input type="checkbox" id="Course1">
+        <label for="gender1">Java Script</label><br>
+        <input type="checkbox" id="Course1">
+        <label for="gender1">PHP</label>
+    </div>
+    <div class="F">
+        <p>About you:</p>
+        <textarea placeholder="about you...." style="height: 100px;width: 500px;" cols="1" rows="1" required></textarea>
+    </div>
+    <div class="G">
+        <input type="submit" value="Submit">
+    </div>
+    </form>
+    </body>
+</html>

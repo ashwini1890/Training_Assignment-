@@ -1,0 +1,51 @@
+*
+{
+padding: 0px;
+margin: 0px;
+font-family: monospace;
+
+}
+header
+{
+
+    color: aliceblue;
+	height: 100vh;
+	background-image: url(246689.jpg);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-size: cover;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+.main
+{
+	width: 90%;
+	max-width: 100%;
+	margin: 10px 5% 0 5%;
+	font-size: 1.4em;
+	line-height: 1.4em;
+	/*padding: 15px;*/
+	background-color: #eee;
+	height: 100vh;
+}
+
+.main p
+{
+	padding: 10px;
+}
+#down
+{
+	position: absolute;
+	top:85vh;
+	size: 40px;
+	padding: 20px;
+	font-size: 2.5em;
+}
+
+#down:hover
+{
+	cursor: pointer;
+	background-color: #eee;
+	opacity: 0.8;
+}

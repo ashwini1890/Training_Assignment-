@@ -1,0 +1,12 @@
+p.p1{
+	text-transform: capitalize;
+}
+p.p2{
+	text-transform: capitalize;
+}
+p.p3{
+	text-transform: lowercase;
+}
+body {
+	 background-color: lightblue;
+}

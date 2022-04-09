@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FullScreenLandingPage</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="Landing Page.css">
+</head>
+<body>
+
+	<header>
+		<h1>Welcome to my LandingPage</h1>
+		<p>How are you doing?</p>
+    <span id="down">&#8595;</span>
+	</header>
+
+	<div class="main">
+		<h3 style="text-align: center;">Some Sample Content</h3>
+		<p>
+			Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+		</p>
+		<p>
+			Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+		</p>
+		<p>
+			Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+		</p>
+		<p>
+			Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+		</p>
+	
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
+
+	$(document).ready( function () {
+	$('#down').on('click',function () {
+		$("html").scrollTop(0);
+		console.log("Clicked!");
+		 $('html, body').animate({
+        scrollTop: $(".main").offset().top
+    }, 1000);
+	});
+});
+</script>
+</body>
+</html>

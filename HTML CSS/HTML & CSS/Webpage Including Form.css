@@ -1,0 +1,62 @@
+body{
+    margin: 50px;
+    padding: 50px;
+    position: relative;
+    background-color: blue;
+   color: aliceblue;
+}
+div {
+    margin: 10px;
+    padding: 10px;
+    top: 75px;
+    left: auto;
+}
+div input{
+    color: black;
+    background: white;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: #274c6f;
+    border-bottom-color: brown;
+}
+h1{
+    
+    position: fixed;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 100px;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+div:hover{
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 200px;
+    transform: scale(2) translateX(25%) translateY(25%);
+}
+.G{
+    border: 2px solid white;
+    width: 55px;
+    height: 55px;
+    border-radius: 100px;
+    transition: transform 1s;
+}
+.G input{
+    border: 2px solid white;
+    width: 55px;
+    height: 55px;
+    border-radius: 100px;
+    transition: transform 1s;
+}
+
+.G:hover{
+    border: 2px solid white;
+    background-color: green;
+    width: 12%;
+    border-radius: 200px;
+    transform: rotate(360deg);
+}

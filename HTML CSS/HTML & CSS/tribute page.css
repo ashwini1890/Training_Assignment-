@@ -1,0 +1,89 @@
+body {
+	background-color: black;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+    margin: auto;
+	padding:50px;
+    left: 0px;
+    top: auto;
+	color:white;
+	font-family: cursive;
+}
+div{
+	margin: 10px;
+	padding: 10px;
+}
+p{
+	text-align: justify;
+	font-size: larger;
+}
+h1.head{
+	color: black;
+	background-color:white;
+	border:2px solid white;
+	border-radius: 10px;
+	text-align: center;
+	position: fixed;
+	top:0px;
+	left:0;
+	width: 100%;
+	z-index: 5;
+	
+}
+div h1{
+	text-decoration: underline;
+}
+
+.div1 img {
+	float: right;
+	position:relative;
+	max-width:30%;
+    top:20px;
+	padding: 10px;
+	z-index: 1;
+    transition: transform 1s;
+}
+
+.div2 img{
+	float: left;
+	position:relative;
+	max-width:30%;
+	padding: 10px;
+	z-index: 1;
+    transition: transform 1s ;
+
+}
+.div3 img{
+	float: right;
+	position:relative;
+	max-width:30%;
+	padding: 10px;
+	z-index: 1;
+    transition: transform 1s;
+
+}
+li {
+    background-color: rgb(64, 24, 210);
+	border-left: 10px solid  background;
+	border-right: 10px solid  background;
+	border-radius:10px;
+	margin: 25px;
+}
+
+.div1 img:hover{
+    transform: scale(1) translateX(-50%) translateY(50%);
+}
+
+.div3 img:hover{
+    transform: scale(2) translateX(-50%);
+}
+
+.div2 img:hover{
+    transform: scale(2) translateX(50%);
+}
+
+@keyframes img{
+    from{transform: translateX(0px)}
+    to{transform: translateX(-50px)}
+}
+
